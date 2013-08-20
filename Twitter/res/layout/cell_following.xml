@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/cell_following_thumb"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_centerVertical="true"
         android:layout_marginRight="5dp" />
 
@@ -17,6 +17,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/cell_following_thumb"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
 </RelativeLayout>
