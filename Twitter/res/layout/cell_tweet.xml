@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/cell_tweet_thumb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/cell_tweet_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cell_tweet_thumb"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/cell_tweet_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cell_tweet_source"
+        android:layout_toRightOf="@id/cell_tweet_thumb"
+        android:textSize="15sp" />
+</RelativeLayout>
